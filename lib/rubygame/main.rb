@@ -25,7 +25,7 @@ require "ruby-sdl-ffi/sdl"
 module Rubygame
 
   VERSIONS = {
-    :rubygame => [2, 6, 4],
+    :rubygame => [2, 7, 0, :unofficial],
     :sdl      => SDL.Linked_Version().to_ary
   }
 
