@@ -24,11 +24,7 @@ require "ruby-sdl-ffi/sdl"
 
 module Rubygame
 
-  VERSIONS = {
-    :rubygame => [2, 7, 0, :unofficial],
-    :sdl      => SDL.Linked_Version().to_ary
-  }
-
+  VERSIONS[:sdl] = SDL.Linked_Version().to_ary
 
   # Initialize Rubygame. This should be called soon after you
   # +require+ Rubygame, so that everything will work properly.

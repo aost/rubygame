@@ -22,6 +22,7 @@
 
 # Require Rubygame files. If these fail, don't rescue.
 # Note: screen.rb is intentionally loaded late.
+require "rubygame/versions"
 require "rubygame/main"
 require "rubygame/shared"
 require "rubygame/clock"
